@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/ecommerce-web.jpg";
+import project2 from "../assets/projects/task.jpg";
+// import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/blog.jpg";
 
 export const HERO_CONTENT = `I am a dedicated full-stack developer with a strong foundation in building scalable and high-performance web applications. With over two years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, alongside back-end expertise in Node.js, MySQL, PostgreSQL, and MongoDB. My focus is on crafting seamless user experiences and optimizing system performance to drive business growth. I thrive in dynamic environments, constantly learning and implementing cutting-edge solutions to deliver innovative and impactful applications.`;
 
@@ -35,13 +35,13 @@ export const PROJECTS = [
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "PHP", "MYSQL"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  // },
   {
     title: "Blogging Platform",
     image: project4,

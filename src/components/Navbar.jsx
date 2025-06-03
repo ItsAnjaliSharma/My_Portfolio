@@ -23,7 +23,7 @@ const Navbar = () => {
         <a href="https://www.facebook.com/profile.php?id=100027666734646" target="_blank" rel="noopener noreferrer">
           <FaFacebook />
         </a>
-        <a href="https://www.instagram.com/anjali_anji2003/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/anji.sharma.24" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
    </div>
