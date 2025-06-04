@@ -26,7 +26,7 @@ const Hero = () => {
             variants={container(0)}
             initial="hidden"
             animate="visible"
-           className="text-5xl lg:text-7xl font-thin tracking-tight mt-6 lg:mt-10">
+           className="text-5xl lg:text-7xl font-bold tracking-tight mt-6 lg:mt-10">
               Anjali Sharma
             </motion.h1>
             <motion.span 
