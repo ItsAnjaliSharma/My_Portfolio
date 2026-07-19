@@ -1,57 +1,66 @@
-import project1 from "../assets/projects/ecommerce-web.jpg";
-import project2 from "../assets/projects/task.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/blog.jpg";
+import project1 from "../assets/projects/langchain.png";
+import project2 from "../assets/projects/vidyalaya.png";
+import project3 from "../assets/projects/consultancy.png";
+import project4 from "../assets/projects/blog.png";
 
-export const HERO_CONTENT = `I am a dedicated full-stack developer with a strong foundation in building scalable and high-performance web applications. With over two years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, alongside back-end expertise in Node.js, MySQL, PostgreSQL, and MongoDB. My focus is on crafting seamless user experiences and optimizing system performance to drive business growth. I thrive in dynamic environments, constantly learning and implementing cutting-edge solutions to deliver innovative and impactful applications.`;
+export const HERO_CONTENT = `I am a driven Full-Stack Software Developer dedicated to crafting high-performance, scalable web applications. Currently based in Bareilly, I leverage my expertise in React, Next.js, and Node.js to build intuitive user experiences and robust backend systems. My passion lies in solving complex problems through clean code and innovative technologies like Generative AI and LangChain.`;
 
-export const ABOUT_TEXT = `I am a passionate and results-driven Full-Stack Developer with 2+ years of experience in designing and maintaining high-performance web applications. Skilled in building intuitive user interfaces, robust server-side architectures, and seamless integrations, I specialize in technologies like React.js, Next.js, Node.js, MySQL, and MongoDB.
-
-With a strong foundation in database design, API integration, and performance optimization, I strive to develop scalable, secure, and user-centric solutions. I am committed to continuous learning and staying updated with the latest industry trends to deliver efficient and impactful applications.`;
+export const ABOUT_TEXT = `With a solid foundation in modern web technologies and a focus on scalability, I bridge the gap between creative design and technical excellence. My journey in software development is fueled by a commitment to continuous learning and a desire to build tools that make a real-world impact. From architecting complex database schemas to developing seamless front-end interfaces, I strive for perfection in every line of code. Currently, I am expanding my horizons into the world of AI-driven applications and high-performance system architectures.`;
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - Present",
+    year: "Nov 2025 - Present",
+    role: "Software Developer",
+    company: "TISHHA Consultants LLP",
+    description: `Developing and maintaining high-performance web applications with a focus on clean, modular code. Collaborating with cross-functional teams to design and implement features, optimize system stability, and handle full-stack development tasks.`,
+    technologies: ["Node.js", "Express.js", "React.js", "Next.js", "PHP", "MySQL"],
+  },
+  {
+    year: "June 2024 - Nov 2025",
     role: "Full Stack Web Developer",
     company: "Sheel Infotech Private Limited",
-    description: `Developed user-centric web applications tailored to client needs. Built and maintained robust back-end systems. Contributed to SIHIMS, delivering innovative features for hospital workflows. Conducted debugging, code reviews, and ensured adherence to best practices.`,
-    technologies: ["JavaScript", "React.js", "Node.js","Next.js", "PHP", "MySQL"],
+    description: `Built and maintained robust back-end systems and user-centric front-end applications. Key contributor to SIHIMS, implementing features for hospital workflows and ensuring quality through rigorous debugging and code reviews.`,
+    technologies: ["JavaScript", "React.js", "Node.js", "Next.js", "PHP", "MySQL"],
   },
 ];
 
-
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "LangchainPython",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A comprehensive exploration of LLMs and the LangChain framework, implementing chains, memory, embeddings, and a custom QABot.",
+    technologies: ["Python", "LangChain", "OpenAI", "Hugging Face"],
   },
   {
-    title: "Task Management App",
+    title: "Vidyalaya",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "PHP", "MYSQL"],
+      "An advanced school management portal built with Next.js and TypeScript, featuring a seamless user interface and robust data management.",
+    technologies: ["Next.js", "TypeScript", "Vercel", "Firebase"],
   },
-  // {
-  //   title: "Portfolio Website",
-  //   image: project3,
-  //   description:
-  //     "A personal portfolio website showcasing projects, skills, and contact information.",
-  //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  // },
   {
-    title: "Blogging Platform",
+    title: "IT Consultancy Site",
+    image: project3,
+    description:
+      "A dynamic consultancy website that pulls and displays real-time data from Google Sheets, designed for maximum performance.",
+    technologies: ["Vite", "JavaScript", "Tailwind CSS", "Google Sheets API"],
+  },
+  {
+    title: "Full-Stack Blog App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A feature-rich blogging platform with separate frontend and backend services, implementing secure user authentication and rich text editing.",
+    technologies: ["React", "Node.js", "TypeScript", "Express", "MongoDB"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Bareilly, Uttar Pradesh, India",
+  phone: "+91 8218468090",
   email: "anjalisharma243001@gmail.com",
+  github: "https://github.com/ItsAnjaliSharma",
+  linkedin: "https://www.linkedin.com/in/anjali-sharma-746587259",
 };
+
+
