@@ -1,7 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTailwindcss, SiMongodb, SiMysql, SiPhp, SiPython } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiMysql, SiPhp, SiPython, SiTypescript, SiFirebase, SiDocker, SiGit } from "react-icons/si";
+import { FaNodeJs, FaGoogleCloudPlatform } from "react-icons/fa";
+import { SiOpenai } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -26,7 +27,7 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="text-center text-4xl my-20 font-bold"
       >
-        Technologies
+        Technologies & Skills
       </motion.h1>
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
@@ -40,6 +41,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="React.js"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
@@ -48,6 +50,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Next.js"
         >
           <TbBrandNextjs className="text-7xl" />
         </motion.div>
@@ -56,6 +59,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="MongoDB"
         >
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
@@ -64,6 +68,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Node.js"
         >
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
@@ -72,6 +77,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="MySQL"
         >
           <SiMysql className="text-7xl text-sky-400" />
         </motion.div>
@@ -80,6 +86,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="PHP"
         >
           <SiPhp className="text-7xl text-indigo-400" />
         </motion.div>
@@ -88,6 +95,7 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Python"
         >
           <SiPython className="text-7xl text-yellow-500" />
         </motion.div>
@@ -96,8 +104,63 @@ const Technologies = () => {
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Tailwind CSS"
         >
           <SiTailwindcss className="text-7xl text-teal-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="TypeScript"
+        >
+          <SiTypescript className="text-7xl text-blue-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(2.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Firebase"
+        >
+          <SiFirebase className="text-7xl text-yellow-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.8)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Git"
+        >
+          <SiGit className="text-7xl text-orange-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Docker"
+        >
+          <SiDocker className="text-7xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="Google Cloud Platform"
+        >
+          <FaGoogleCloudPlatform className="text-7xl text-red-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          title="LangChain & AI"
+        >
+          <SiOpenai className="text-7xl text-green-400" />
         </motion.div>
       </motion.div>
     </div>

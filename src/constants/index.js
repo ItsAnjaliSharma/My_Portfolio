@@ -3,9 +3,36 @@ import project2 from "../assets/projects/vidyalaya.png";
 import project3 from "../assets/projects/consultancy.png";
 import project4 from "../assets/projects/blog.png";
 
-export const HERO_CONTENT = `I am a driven Full-Stack Software Developer dedicated to crafting high-performance, scalable web applications. Currently based in Bareilly, I leverage my expertise in React, Next.js, and Node.js to build intuitive user experiences and robust backend systems. My passion lies in solving complex problems through clean code and innovative technologies like Generative AI and LangChain.`;
+export const HERO_CONTENT = `I am a driven Full-Stack Software Developer dedicated to crafting high-performance, scalable web applications. Currently based in Bareilly, I leverage my expertise in React, Next.js, and Node.js to build intuitive user experiences and robust backend systems. My passion lies in solving complex problems through clean code and innovative technologies like Generative AI, LangChain, and AI-powered applications.`;
 
-export const ABOUT_TEXT = `With a solid foundation in modern web technologies and a focus on scalability, I bridge the gap between creative design and technical excellence. My journey in software development is fueled by a commitment to continuous learning and a desire to build tools that make a real-world impact. From architecting complex database schemas to developing seamless front-end interfaces, I strive for perfection in every line of code. Currently, I am expanding my horizons into the world of AI-driven applications and high-performance system architectures.`;
+export const ABOUT_TEXT = `With a solid foundation in modern web technologies and a focus on scalability, I bridge the gap between creative design and technical excellence. My journey in software development is fueled by a commitment to continuous learning and a desire to build tools that make a real-world impact. From architecting complex database schemas to developing seamless front-end interfaces, I strive for perfection in every line of code. I specialize in full-stack development with expertise in cloud deployment (Google Cloud Run, Vercel, Firebase), AI integration (Gemini API, LangChain), and scalable system architectures. Currently expanding my horizons into AI-driven applications and high-performance system design.`;
+
+export const SKILLS = [
+  {
+    category: "Frontend",
+    technologies: ["React.js", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML5", "CSS3", "Vite"]
+  },
+  {
+    category: "Backend",
+    technologies: ["Node.js", "Express.js", "PHP", "Python", "Firebase", "Google Cloud Run"]
+  },
+  {
+    category: "Database & Storage",
+    technologies: ["MongoDB", "MySQL", "Cloud Firestore", "Google Sheets API"]
+  },
+  {
+    category: "AI & LLM",
+    technologies: ["LangChain", "OpenAI", "Google Gemini API", "Hugging Face", "AI Agents"]
+  },
+  {
+    category: "Tools & Platforms",
+    technologies: ["Git & GitHub", "Google Cloud Platform", "Vercel", "Firebase", "Docker", "Postman"]
+  },
+  {
+    category: "Specializations",
+    technologies: ["Full-Stack Development", "REST APIs", "School Management Systems", "E-commerce Solutions", "Blog Platforms", "Consultancy Portals"]
+  }
+];
 
 export const EXPERIENCES = [
   {
@@ -56,7 +83,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Bareilly, Uttar Pradesh, India",
+  address: "India",
   phone: "+91 8218468090",
   email: "anjalisharma243001@gmail.com",
   github: "https://github.com/ItsAnjaliSharma",
